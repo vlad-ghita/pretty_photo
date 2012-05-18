@@ -7,7 +7,7 @@
 
 	<repo type="github">https://github.com/vlad-ghita/pretty_photo</repo>
 
-	<url type="discuss">http://symphony-cms.com/discuss/thread/60955/</url>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/88090/</url>
 
 	<types>
 		<type>Interface</type>
@@ -24,4 +24,9 @@
 	<releases>
 		<release version="1.0" date="2012-05-18" min="2.3"/>
 	</releases>
+
+	<media>
+		<item type="image" url="http://yoursite.com/files/image.png">Describe the asset here.</item>
+		...
+	</media>
 </extension>
