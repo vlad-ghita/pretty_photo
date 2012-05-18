@@ -31,9 +31,11 @@
 		}
 
 		else if( env['page'] === 'edit' ){
+			var excluded = '.field-selectbox_link_plus';
+
 			var entry_title = $('#breadcrumbs h2').text();
 
-			$('#contents a > img').each(function(){
+			$('#contents div[id*=field]').not(excluded).find('a > img').each(function(){
 				$(this).parent().attr({
 					'rel': 'prettyPhoto[album]'
 				});
