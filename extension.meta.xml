@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="pretty_photo" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+
+	<name>Pretty Photo</name>
+
+	<description>Adds Pretty Photo to Symphony admin.</description>
+
+	<repo type="github">https://github.com/vlad-ghita/pretty_photo</repo>
+
+	<url type="discuss">http://symphony-cms.com/discuss/thread/60955/</url>
+
+	<types>
+		<type>Interface</type>
+	</types>
+
+	<authors>
+		<author>
+			<name github="vlad-ghita" symphony="vladG">Vlad Ghita</name>
+			<email>vlad_micutul@yahoo.com</email>
+			<website>http://www.xanderadvertising.com</website>
+		</author>
+	</authors>
+
+	<releases>
+		<release version="1.0" date="2012-05-18" min="2.3"/>
+	</releases>
+</extension>
