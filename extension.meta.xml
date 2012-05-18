@@ -26,7 +26,6 @@
 	</releases>
 
 	<media>
-		<item type="image" url="http://yoursite.com/files/image.png">Describe the asset here.</item>
-		...
+		<item type="image" url="https://github.com/vlad-ghita/pretty_photo/blob/master/docs/pretty_photo_demo_%231.jpg">Demo on publish page.</item>
 	</media>
 </extension>
