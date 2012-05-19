@@ -14,7 +14,7 @@
 				var $this = $(this);
 				var $td = $this.parents('td');
 
-				if( $td.length === 0 ) return false;
+				if( $td.length === 0 ) return true;
 
 				$this.attr('alt', $table.find('th:eq('+$td.index()+')').text());
 
